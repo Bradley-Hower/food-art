@@ -1,0 +1,50 @@
+/* external style sheet */
+
+* {
+    border: 1px solid rgb(126, 126, 126);
+}
+
+header {
+    display: flex;
+}
+
+search {
+    background-color: yellow;
+    height: 100px;
+    align-items: right;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+main {
+    border: 1px red;
+    display: flex;
+}
+
+menu {
+    width: 200px;
+    height: 500px;
+}
+
+article {
+    border: 1px green;
+    flex: 70%;
+    height: 500px;
+}
+.picrow {
+    display: flex;
+
+}
+.featured_image_set {
+    width: 33%;
+    padding: 10px;
+    background-color: red;
+}
+img .featured_image {
+    width: 100%;
+}
+footer {
+    width: 150px;
+}

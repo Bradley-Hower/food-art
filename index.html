@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fragile Food</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <img src="asdf" alt="Fragile Food Logo">
         <h1>Unusual beauty.</h1>
         <search>
-            <form action="./search">
-                <input type="search" placeholder="Search" id="images" name="q"/>
-        </form></search>
+                <form action="./search">
+                    <input type="search" placeholder="Search" id="images" name="q"/>
+                </form>
+        </search>
     </header>
     <main>
         <menu>
             <h2>Happening</h2>
             <ul>   
-                <li>Eggs <strong>*Popular*</strong></li><!--popular generated-->
+                <li>Eggs - <strong>*Popular*</strong></li><!--popular generated-->
                 <li>Lemons - This Season</li><!--generated-->
                 <li>Cakes - Random</li><!--random generated-->
-            </ul>    
+            </ul>
             <h2>Categories</h2>
-            <ul>
+            <ol>
                 <li>Fruit</li><!--Categories-->
                     <ul>
                         <li>Grapes</li>
@@ -32,24 +34,34 @@
                 <li>Foam</li>
             </ul>
         </menu>
-        <h2>Featured</h2>
-        <section>
-            <img src="https://bradley-hower.github.io/food-art/image1.jpg" alt="featured_image1">
-            <img src="https://bradley-hower.github.io/food-art/image2.jpg" alt="featured_image2">
-            <img src="https://bradley-hower.github.io/food-art/image3.jpg" alt="featured_image3">
-            <img src="https://bradley-hower.github.io/food-art/image4.jpg" alt="featured_image4">
-            <img src="https://bradley-hower.github.io/food-art/image5.jpg" alt="featured_image5">
-            <img src="https://bradley-hower.github.io/food-art/image6.jpg" alt="featured_image6">
-        </section>
-        <h2>For You</h2>
-        <section>
-            <img src="https://bradley-hower.github.io/food-art/image7.jpg" alt="for-you_image1">
-            <img src="https://bradley-hower.github.io/food-art/image8.jpg" alt="for-you_image2">
-            <img src="https://bradley-hower.github.io/food-art/image9.jpg" alt="for-you_image3">
-            <img src="https://bradley-hower.github.io/food-art/image10.jpg" alt="for-you_image4">
-            <img src="https://bradley-hower.github.io/food-art/image11.jpg" alt="for-you_image5">
-            <img src="https://bradley-hower.github.io/food-art/image12.jpg" alt="for-you_image6">
-        </section>
+        <article>
+            <section>
+                <h2>Featured</h2>
+                    <div class="picrow">
+                        <div class="featured_image_set"><img class="featured_image" src="https://bradley-hower.github.io/food-art/image1.jpg" alt="featured_image1" width=100%></div>
+                        <div class="featured_image_set"><img src="https://bradley-hower.github.io/food-art/image2.jpg" alt="featured_image2"></div>
+                        <div class="featured_image_set"><img src="https://bradley-hower.github.io/food-art/image3.jpg" alt="featured_image3"></div>
+                    </div>
+                    <div class="picrow">
+                        <div class="featured_image_set"><img src="https://bradley-hower.github.io/food-art/image4.jpg" alt="featured_image4"></div>
+                        <div class="featured_image_set"><img src="https://bradley-hower.github.io/food-art/image5.jpg" alt="featured_image5"></div>
+                        <div class="featured_image_set"><img src="https://bradley-hower.github.io/food-art/image6.jpg" alt="featured_image6"></div>
+                    </div>    
+                </section>
+            <section>
+                <h2>For You</h2>
+                    <div>
+                        <img src="https://bradley-hower.github.io/food-art/image7.jpg" alt="for-you_image1">
+                        <img src="https://bradley-hower.github.io/food-art/image8.jpg" alt="for-you_image2">
+                        <img src="https://bradley-hower.github.io/food-art/image9.jpg" alt="for-you_image3">
+                    </div>
+                    <div>
+                        <img src="https://bradley-hower.github.io/food-art/image10.jpg" alt="for-you_image4">
+                        <img src="https://bradley-hower.github.io/food-art/image11.jpg" alt="for-you_image5">
+                        <img src="https://bradley-hower.github.io/food-art/image12.jpg" alt="for-you_image6">
+                    </div>
+            </section>
+        </article>
     </main>
     <footer>
             <nav>
