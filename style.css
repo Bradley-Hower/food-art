@@ -1,7 +1,12 @@
 /* external style sheet */
+body {
+    background-color: rgb(209, 209, 209);
+    margin-top: -100px;
+    text-align: center;
+}
 
 header {
-    background-color: rgb(218, 251, 255);
+    background-color: rgb(255, 255, 218);
     border-right: 20px solid rgb(209, 209, 20);;
     position: fixed;
     width: 100%;
@@ -22,45 +27,40 @@ header {
     text-align: left;
 }
 
-#signup {
-    height: 35px;
-    background-color: orange;
-    margin: 20px;
-    border-radius: 10px;    
-}
-
-#sign_in {
-    height: 25px;
-    background-color: rgb(255, 255, 157);
-    margin: 10px;
-    border-radius: 10px;
-}
-
-body {
-    background-color: rgb(209, 209, 209);
-    margin-top: -100px;
-    text-align: center;
-}
-
 /* #page color set */
 main {
-    background-color: rgb(255, 255, 218);
+    background-color: rgb(255, 79, 79);
     padding-top: 180px;
 }
 
 menu {
-    background-color: rgb(218, 251, 255);
+    background-color: rgb(255, 255, 218);
     height: 100%;
     width: 200px;
     position: fixed;
     margin-top: 0px;
 }
 
+#signup {
+    background-color: orange;
+    margin: 20px;
+    border-radius: 10px;    
+    padding: 15px;
+}
+
+#sign_in {
+    background-color: rgb(255, 255, 157);
+    margin: 20px;       
+    padding: 10px;
+    border-radius: 10px;
+}
+
 article {
-    margin-left: 200px;
-    margin-top: 60px;
-    padding-left: 2px;
-    padding-right: 2px;
+    margin-left: 240px;
+}
+
+#keymessage {
+    background-color: white;
 }
 
 .picrow {
@@ -70,18 +70,18 @@ article {
 /* #page color set */
 .featured_image_set {
     margin: auto;
-    width: 33%;
-    padding: 2px;
-    background-color:  rgb(255, 255, 218);
+    width: 33.3333%;
+    padding: 4px;
+    background-color:  rgb(255, 79, 79);
 }
 
 /* #page color set */
 
 .for-you_image_set {
     margin: auto;
-    width: 33%;
-    padding: 5px;
-    background-color: rgb(255, 255, 218);    
+    width: 33.3333%;
+    padding: 4px;
+    background-color: rgb(255, 79, 79);    
 }
 
 img {
