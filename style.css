@@ -1,58 +1,89 @@
 /* external style sheet */
 
-* {
+ * {
     border: 1px solid rgb(126, 126, 126);
 }
 
 header {
     display: flex;
 }
+#logopic {
+    height: 70px;
+    width: 200px;
+}
+h1 {
+    margin-left: 200px;
+}
+#signup {
+    height: 35px;
+    background-color: orange;
+    margin: 10px;
+    border-radius: 10px;    
+}
+
+#sign_in {
+    height: 25px;
+    background-color: yellow;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 
 search {
     background-color: yellow;
-    height: 100px;
-    align-items: right;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 0px;
+    text-align: left;
 }
 
 body {
     background-color: rgb(231, 231, 231);
+    text-align: center;
 }
 
 main {
-    border: 1px red;
-    display: flex;
+    background-color: red;
+    border: 10px green;
 }
 
 menu {
     width: 200px;
-    height: 500px;
+    padding-left: 0;
+    position: fixed;
+    top: -10px;
 }
 
 article {
-    border: 1px green;
-    flex: 70%;
-    height: 500px;
+    border: 10px green;
+    margin-left: 200px;
 }
 
 .picrow {
     display: flex;
-
 }
 
 .featured_image_set {
+    margin: auto;
     width: 33%;
-    max-width: fit-content;
     padding: 10px;
     background-color: red;
 }
 
 .for-you_image_set {
+    margin: auto;
     width: 33%;
     padding: 10px;
-    vertical-align: middle;
     background-color: red;    
 }
 
+img {
+    width: 100%;
+}
+
+nav {
+    margin-top: 200px;
+}
 footer {
-    width: 150px;
+    width: 200px;
 }
