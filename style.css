@@ -2,8 +2,10 @@
 body {
     background-color: rgb(209, 209, 209);
     margin-top: -100px;
-    text-align: center;
+    margin: 0px;
 }
+
+
 
 header {
     background-color: rgb(255, 255, 218);
@@ -22,8 +24,9 @@ header {
 
 #searchbar {
     margin-top: auto;
+    margin-bottom: 8px;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 8px;
     text-align: left;
 }
 
@@ -39,32 +42,86 @@ menu {
     width: 200px;
     position: fixed;
     margin-top: 0px;
+    text-align: right;
+    font-size: 12pt;
+    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu_list {
+    padding: 10px;
+}
+
+.menu_title {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    font-size: 13pt;
 }
 
 #signup {
-    background-color: orange;
+    background-color: rgb(255, 165, 0);
     margin: 20px;
+    border: 2px solid rgb(235, 135, 0);
     border-radius: 10px;    
     padding: 15px;
+    text-align: center;
 }
 
 #sign_in {
     background-color: rgb(255, 255, 157);
+    border: 2px solid rgb(225, 225, 127);
     margin: 20px;       
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
 }
 
 article {
-    margin-left: 240px;
+    margin-left: 200px;
+    border-top: 2px solid black;
+    border-left: 1px solid black;    
+}
+
+section {
+    border-top: 1px solid black;    
 }
 
 #keymessage {
     background-color: white;
+    height: 85px;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(255, 255, 218);
+    width: 120px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 8px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+hr {
+    border: 1px solid black;
+    padding: 1px;
 }
 
 .picrow {
     display: flex;
+    padding-right: 4px;
+    padding-left: 4px;
+
 }
 
 /* #page color set */
@@ -89,7 +146,7 @@ img {
 }
 
 nav {
-    margin-top: 200px;
+    margin-top: 220px;
 }
 footer {
     width: 200px;
