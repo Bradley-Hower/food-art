@@ -33,7 +33,7 @@ header {
 /* #page color set */
 main {
     background-color: rgb(255, 79, 79);
-    padding-top: 180px;
+    padding-top: 160px;
 }
 
 menu {
@@ -84,7 +84,6 @@ menu {
 
 article {
     margin-left: 200px;
-    border-top: 2px solid black;
     border-left: 1px solid black;    
 }
 
