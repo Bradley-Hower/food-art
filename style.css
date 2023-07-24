@@ -33,18 +33,26 @@ article {
     flex: 70%;
     height: 500px;
 }
+
 .picrow {
     display: flex;
 
 }
+
 .featured_image_set {
     width: 33%;
+    max-width: fit-content;
     padding: 10px;
     background-color: red;
 }
-img .featured_image {
-    width: 100%;
+
+.for-you_image_set {
+    width: 33%;
+    padding: 10px;
+    vertical-align: middle;
+    background-color: red;    
 }
+
 footer {
     width: 150px;
 }
