@@ -7,7 +7,7 @@ if (username == "yummy"){
     window.location = "loggedin.html";
 } else {
     alert("Try again. Psst, it's 'yummy'.")
-    window.location = "index.html";
+    window.location = "logging.html";
 };
 
 
