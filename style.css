@@ -1,21 +1,19 @@
 /* external style sheet */
 body {
     background-color: rgb(209, 209, 209);
-    margin-top: -100px;
     margin: 0px;
 }
 
 header {
     background-color: rgb(255, 255, 218);
-    border-right: 20px solid rgb(209, 209, 20);;
     position: fixed;
     height: 160px;
     width: 100%;
+    margin-bottom: auto;
 }
 #headeritems {
     display: flex;
-    margin-top: 127px;
-    
+    margin-top: 70px;
 }
 #logopic {
     height: 60px;
@@ -24,7 +22,7 @@ header {
 
 h1 {
     font-size: 40px;
-    margin-top: -20px;
+    margin-top: 37px;
 }
 
 #searchbar {
@@ -32,9 +30,11 @@ h1 {
     margin-left: auto;
     margin-right: 8px;
     text-align: left;
+    margin-top: 57px;
 }
 
 /* #page color set */
+
 main {
     background-color: rgb(255, 79, 79);
     padding-top: 160px;

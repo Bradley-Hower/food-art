@@ -23,7 +23,7 @@ function visitwarning(){
 function userfont(){
     let fontSizeChoice = prompt("Customized for you. Pick a font size number.");
     let fontColorChoice = prompt("Pick a color.");
-    let returningtext = document.write('&nbsp;<span style="color: ' + fontColorChoice + '; font-size: ' + fontSizeChoice +'pt";>Poof!</span>&nbsp;What you do in the world comes back to you.');
+    let returningtext = document.write('&nbsp;<span style="color: ' + fontColorChoice + '; font-size: ' + fontSizeChoice +'pt; top-margin: auto;">Poof!</span>&nbsp;What you do in the world comes back to you.');
     return returningtext;
 }
 
