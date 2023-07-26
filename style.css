@@ -6,15 +6,20 @@ body {
 
 header {
     background-color: rgb(255, 255, 218);
+    border-bottom: 1px solid black;  
     position: fixed;
     height: 160px;
     width: 100%;
     margin-bottom: auto;
+    overflow: hidden;
+    z-index: 2;
 }
+
 #headeritems {
     display: flex;
     margin-top: 70px;
 }
+
 #logopic {
     height: 60px;
     width: 200px;
@@ -36,12 +41,14 @@ h1 {
 /* #page color set */
 
 main {
+    position: relative;
     background-color: rgb(255, 79, 79);
     padding-top: 160px;
 }
 
 menu {
     background-color: rgb(255, 255, 218);
+    border-top: 1px solid (255, 255, 218)  
     height: 100%;
     width: 200px;
     position: fixed;
@@ -52,6 +59,7 @@ menu {
     padding-right: 20px;
     padding-left: 0px;
     padding-right: 0px;
+    z-index: 2;
 }
 
 .menu_list {
