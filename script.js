@@ -3,12 +3,12 @@
 
 
 
-console.log("Here we are");
 
-
-if (confirm("Visiting might make you hungry. Is that alright?")) {
-} else {
-    alert("Last chance to leave. Press OK to enter.");
+function visitwarning(){
+    if (confirm("Visiting might make you hungry. Is that alright?")) {
+    } else {
+        alert("Last chance to leave. Press OK to enter.");
+    }
 }
 
 
@@ -17,39 +17,68 @@ if (confirm("Visiting might make you hungry. Is that alright?")) {
 //alert("Have you been here before?");
 
 
-const userResponse = prompt("Super. What kind of day is today?");
-console.log(userResponse);
 
-alert("Maybe try logging in.");
 
-const fontSizeChoice = prompt("Customized for you. Pick a font size number.");
-document.write('<span style="font-size: ' + fontSizeChoice + 'pt;">Poof! </span>');
 
-if (confirm("Have you been here before? If yes, press OK. If no, press cancel.")) {
-    document.write("Welcome back. ")
-} else {
-    document.write("We're glad you found us. ")
+function userfont(){
+    let fontSizeChoice = prompt("Customized for you. Pick a font size number.");
+    let fontColorChoice = prompt("Pick a color.");
+    let returningtext = document.write('&nbsp;<span style="color: ' + fontColorChoice + '; font-size: ' + fontSizeChoice +'pt";>Poof!</span>&nbsp;What you do in the world comes back to you.');
+    return returningtext;
 }
 
-if (userResponse == "good"){
-    document.write("Today is " + userResponse + ". Fantastic. Let's believe we can make it even better. ");
-} else if (userResponse == "great"){
-    document.write("Today is " + userResponse + ". Fantastic. Let's believe we can make it even better. ");
-} else if (userResponse == "nice"){
-    document.write("Today is " + userResponse + ". Fantastic. Let's believe we can make it even better. ");
-} else if (userResponse == "beautiful"){
-    document.write("Today is " + userResponse + ". Fantastic. Let's believe we can make it even better. ");
-} else if (userResponse == "sunny"){
-    document.write("Today is " + userResponse + ". Fantastic. Let's believe we can make it even better. ");
-} else if (userResponse == "bright"){
-    document.write("Today is " + userResponse + ". Fantastic. Let's believe we can make it even better. ");
-} else if (userResponse == "clear"){
-    document.write("Today is " + userResponse + ". Fantastic. Let's believe we can make it even better. ");
-} else {
-    document.write("Even though today is " + userResponse + ", let's believe we can make it better. ");
-}
-document.write("We hope you enjoy your stay.");
 
+
+function visitorstatus(){
+    if (confirm("Have you been here before? If yes, press OK. If no, press cancel.")) {
+        document.write("Welcome back. ");
+    } else {
+        document.write("We're glad you found us. ");
+    }
+}
+
+
+
+
+///=====================================
+
+
+
+function daystatus(){
+    let itbesaytheday = prompt("Super. What kind of day is today?");
+    console.log(itbesaytheday);
+    return itbesaytheday;
+}
+
+
+function daystatusresponse(usersresponseinput){
+    let daystatusinput = usersresponseinput
+    let reply1 = "Today is " + daystatusinput + ". Fantastic. Let's believe we can make it even better. ";
+    if (daystatusinput == "good"){
+        document.write(reply1);
+    } else if (daystatusinput == "great"){
+        document.write(reply1);
+    } else if (daystatusinput == "nice"){
+        document.write(reply1);
+    } else if (daystatusinput == "beautiful"){
+        document.write(reply1);
+    } else if (daystatusinput == "sunny"){
+        document.write(reply1);
+    } else if (daystatusinput == "bright"){
+        document.write(reply1);
+    } else if (daystatusinput == "clear"){
+        document.write(reply1);
+    } else if (daystatusinput == "super"){
+        document.write(reply1);
+    } else if (daystatusinput == null){
+        document.write("It's okay you didn't want to reply. Let's believe today can be better. ");
+    } else if (daystatusinput == ""){
+        document.write("It's okay you didn't want to reply. Let's believe today can be better. ");
+    } else {
+        document.write("Even though today is " + daystatusinput + ", let's believe we can make it better. ");
+    }
+    document.write("We hope you enjoy your stay.");
+}
 
 
 
