@@ -4,6 +4,10 @@ body {
     margin: 0px;
 }
 
+p img {
+    width: 50px;
+}
+
 header {
     background-color: rgb(255, 255, 218);
     border-bottom: 1px solid black;  
@@ -165,5 +169,6 @@ nav {
     margin-top: 290px;
 }
 footer {
+    font-size: 8px;
     width: 200px;
 }

@@ -20,12 +20,38 @@ function visitwarning(){
 
 
 
-function userfont(){
-    let fontSizeChoice = prompt("Customized for you. Pick a font size number.");
-    let fontColorChoice = prompt("Pick a color.");
-    let returningtext = document.write('&nbsp;<span style="color: ' + fontColorChoice + '; font-size: ' + fontSizeChoice +'pt; top-margin: auto;">Poof!</span>&nbsp;What you do in the world comes back to you.');
-    return returningtext;
+function user_referrals(){
+    let referralnumber = -1;
+    while (referralnumber < 0 || referralnumber > 10 || isNaN(referralnumber)){
+        referralnumber = prompt("How many people will you tell about my website? Pick a number (0-10).");
+    } 
+    let referral_response = ''
+    if (referralnumber >= 5){
+        referral_response = 'Wow! You will refer me to ' + referralnumber + ' people. I appreciate you!';
+    }else if ((referralnumber > 1) && (referralnumber < 5)){ 
+        referral_response = 'Great! You will refer me to ' + referralnumber + ' people. Thank you.';
+    } else if (referralnumber == 1){ 
+        referral_response = 'Great! You will refer me to one person. Thank you.';    
+    } else {
+        referral_response = 'I am so sad. You said you will give me zero refferrals.';
+    }
+    console.log(dog)
+    document.write(referral_response);
+    console.log(referralnumber)
+
+    for (let i=0; i < referralnumber; i++){
+            document.write('<p><img src="thankyougesture.jpg" alt="folded hands" /></p>');
+    }
+    if (referralnumber == 0 || referralnumber == null){
+        document.write('<p><img src="sadface.jpg" alt="Frowning face drawn on dewy glass, with water dripping. Dripping makes face look like crying." /></p>');
+    }
 }
+
+
+
+
+
+
 
 
 
