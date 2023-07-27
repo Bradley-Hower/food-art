@@ -35,7 +35,6 @@ function user_referrals(){
     } else {
         referral_response = 'I am so sad. You said you will give me zero refferrals.';
     }
-    console.log(dog)
     document.write(referral_response);
     console.log(referralnumber)
 
