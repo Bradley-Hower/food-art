@@ -22,7 +22,7 @@ function visitwarning(){
 
 function user_referrals(){
     let referralnumber = -1;
-    while (referralnumber < 0 || referralnumber > 10 || isNaN(referralnumber)){
+    while (referralnumber < 0 || referralnumber > 10 || isNaN(referralnumber) || referralnumber == '' || referralnumber.charAt(0) == ' '){
         referralnumber = prompt("How many people will you tell about my website? Pick a number (0-10).");
     } 
     let referral_response = ''
@@ -95,7 +95,7 @@ function daystatusresponse(usersresponseinput){
         document.write(reply1);
     } else if (daystatusinput == "super"){
         document.write(reply1);
-    } else if (daystatusinput == null){
+    } else if (daystatusinput == null || daystatusinput.charAt(0) == ' '){
         document.write("It's okay you didn't want to reply. Let's believe today can be better. ");
     } else if (daystatusinput == ""){
         document.write("It's okay you didn't want to reply. Let's believe today can be better. ");
