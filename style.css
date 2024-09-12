@@ -4,10 +4,6 @@ body {
     margin: 0px;
 }
 
-p img {
-    width: 50px;
-}
-
 header {
     background-color: rgb(255, 255, 218);
     border-bottom: 1px solid black;  
@@ -21,7 +17,29 @@ header {
 
 #headeritems {
     display: flex;
+    margin-left: 8px;
     margin-top: 70px;
+}
+
+#reply {
+    display: flex;
+    justify-content: center;
+}
+
+#reply div{
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+#reply div container{
+    display: flex;
+    margin-left: 8px;
+}
+
+#reply div container img {
+    width: 35px;
 }
 
 #logopic {

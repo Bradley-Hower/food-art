@@ -37,13 +37,14 @@ function user_referrals(){
     }
     document.write(referral_response);
     console.log(referralnumber)
-
+    document.write('<container>')
     for (let i=0; i < referralnumber; i++){
-            document.write('<p><img src="thankyougesture.jpg" alt="folded hands" /></p>');
+            document.write('<img src="thankyougesture.png" alt="folded hands" />');
     }
     if (referralnumber == 0 || referralnumber == null){
-        document.write('<p><img src="sadface.jpg" alt="Frowning face drawn on dewy glass, with water dripping. Dripping makes face look like crying." /></p>');
+        document.write('<img src="sadface.jpg" alt="Frowning face drawn on dewy glass, with water dripping. Dripping makes face look like crying." />');
     }
+    document.write('</container>')
 }
 
 
