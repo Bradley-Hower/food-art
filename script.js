@@ -42,7 +42,7 @@ function user_referrals(){
             document.write('<img src="thankyougesture.png" alt="folded hands" />');
     }
     if (referralnumber == 0 || referralnumber == null){
-        document.write('<img src="sadface.jpg" alt="Frowning face drawn on dewy glass, with water dripping. Dripping makes face look like crying." />');
+        document.write('<img src="sadface.png" alt="Frowning face drawn on dewy glass, with water dripping. Dripping makes face look like crying." />');
     }
     document.write('</container>')
 }
